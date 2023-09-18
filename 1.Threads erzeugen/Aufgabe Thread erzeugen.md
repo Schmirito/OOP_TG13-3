@@ -9,4 +9,4 @@
 6. Beim erzeugen des Threads soll die Wartezeit und der Name festgelegt sein
 -> Konstruktor mit Übergabeparameter
 7. Zeigen sie das der Main-Thread vor den Zählthreads zuende ist, obwohl er  zuerst gestartet wird.
-
+8. Upgrade das Programm so, dass Viren Intalliert werden.
