@@ -1,3 +1,4 @@
+package A1_ThreadsErzeugenDurchVererbung;
 public class MeinThread extends Thread{
     
     //Objektvariablen

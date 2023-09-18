@@ -1,6 +1,7 @@
 package A2_ThreadsErzeugenMitInterface;
 public class MeinThread2 implements Runnable{
 
+    public static final String MeinThread2 = null;
     String name;
     int wartezeit;
     Thread t;
@@ -14,7 +15,9 @@ public class MeinThread2 implements Runnable{
     @Override
     public void run() {
 
-        System.out.println(name);
+        for (int i = 0; i < 100; i++) {
+            System.out.println(name);
+        }
 
         try {
             Thread.sleep(wartezeit);
