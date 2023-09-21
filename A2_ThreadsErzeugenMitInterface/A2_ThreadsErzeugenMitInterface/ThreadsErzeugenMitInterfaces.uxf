@@ -1,7 +1,7 @@
 <diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>MeinThread
 
 
-</help_text><element><id>UMLClass</id><coordinates><x>37</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>MeinThread
+</help_text><element><id>UMLClass</id><coordinates><x>127</x><y>360</y><w>210</w><h>190</h></coordinates><panel_attributes>MeinThread
 -
 name:String
 wait:int
@@ -9,29 +9,11 @@ t:Thread
 -
 +MeinThread(name:String, wait:int)
 +run()
-+start()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>347</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>Runnable &lt;&lt;interface&gt;&gt;
++start()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>437</x><y>80</y><w>210</w><h>190</h></coordinates><panel_attributes>Runnable &lt;&lt;interface&gt;&gt;
 -
-+run()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>147</x><y>210</y><w>330</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>310;10;310;60;10;60;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>347</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>ErzeugeThread
--
-_+main(args:String[])
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>237</x><y>390</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;erzeugt&gt;&gt;</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>37</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>MeineOberklasse
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>127</x><y>210</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram><diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>MeinThread
-
-
-</help_text><element><id>UMLClass</id><coordinates><x>37</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>MeinThread
--
-name:String
-wait:int
-t:Thread
--
-+MeinThread(name:String, wait:int)
-+run()
-+start()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>347</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>Runnable &lt;&lt;interface&gt;&gt;
--
-+run()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>147</x><y>210</y><w>330</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>310;10;310;60;10;60;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>347</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>ErzeugeThread
++run()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>237</x><y>260</y><w>330</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>310;10;310;60;10;60;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>437</x><y>360</y><w>210</w><h>190</h></coordinates><panel_attributes>ErzeugeThread
 -
 _+main(args:String[])
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>237</x><y>390</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;erzeugt&gt;&gt;</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>37</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>MeineOberklasse
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>127</x><y>210</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>327</x><y>440</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;erzeugt&gt;&gt;</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>127</x><y>80</y><w>210</w><h>190</h></coordinates><panel_attributes>MeineOberklasse
+-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>217</x><y>260</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
