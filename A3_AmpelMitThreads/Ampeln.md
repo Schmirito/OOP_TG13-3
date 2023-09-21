@@ -20,3 +20,9 @@ Die Nummerierung wird als Zustandsvariable umgestezt (Konstante). Der wechsel de
 ## Testszenario
 - Es werden 2 Ampeln gestartet
 - Es erfolgt die Ausgabe des Namens der Ampel mit zugehörigem Zustand
+
+
+## Beim nächstenmal:
+- Gui fertigstellen
+- Anzeige erstellen
+- usw...
