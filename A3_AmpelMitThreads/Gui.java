@@ -38,6 +38,8 @@ public class Gui extends JFrame implements ActionListener{
     public static void main(String[] args) {
         Gui gui = new Gui();
         gui.setVisible(true);
+
+        StarteAmpel startA = new StarteAmpel();
     }
 
     @Override
