@@ -53,3 +53,5 @@ for (String i : namen.keySet()) {
   System.out.println("key: " + i + " value: " + namen.get(i));
 }
 ````
+
+http://www.scalingbits.com/index.php/java/javakurs2/programmieren2/collection/maps
