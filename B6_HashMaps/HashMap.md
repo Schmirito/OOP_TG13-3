@@ -36,7 +36,7 @@ namen.size();
 ````
 ### Wie gibt man eine HashMap aus?
 ````java
-//Die Ausgabe erfolgt in einer for-each Schleife
+//Die Ausgabe erfolgt in einer for-each Schleife 
 
 //Für die Ausgabe der keys verwendet man ".keySet()"
 for (String i : namen.keySet()) {
