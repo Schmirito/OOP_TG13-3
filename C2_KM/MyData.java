@@ -4,7 +4,7 @@ public class MyData {
     MyCluster mc;
     public int x;
     public int y;
-    public int minX = Integer.MAX_VALUE;
+    public int dist = Integer.MAX_VALUE;
 
     public MyData(int x, int y){
         this.x = x;
